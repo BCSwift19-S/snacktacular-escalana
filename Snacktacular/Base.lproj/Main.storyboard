@@ -352,7 +352,11 @@
                     </view>
                     <toolbarItems>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="Y6u-FX-R4j"/>
-                        <barButtonItem title="Lookup Place" id="eqz-nZ-T2A"/>
+                        <barButtonItem title="Lookup Place" id="eqz-nZ-T2A">
+                            <connections>
+                                <action selector="lookUpPlacePressed:" destination="L7d-5i-Cie" id="mM6-1j-fKm"/>
+                            </connections>
+                        </barButtonItem>
                     </toolbarItems>
                     <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="R1z-zr-Kjm">
                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="S5P-gk-K1R">
